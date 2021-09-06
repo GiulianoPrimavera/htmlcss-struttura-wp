@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, .sezione2{
+    margin: auto;
+}
+header{
+    background-color: rgb(185, 110, 255);
+    width: 800px;
+    height: 60px;
+}
+footer{
+    width: 800px;
+    height: 30px;
+    background-color: rgb(80, 0, 150);
+    margin-top: 10px;
+}
+.sezione1{
+    background-color: rgb(200, 160, 115);
+    width: 800px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/* sulla sezione centrale uso float:left per gli elementi interni e clearfix per il contenitore */
+.sezione2{
+    width: 800px;
+    background-color: rgb(0, 0, 255);
+}
+.sezione2 aside{
+    background-color: rgb(135, 206, 250);
+    float: left;
+    height: 320px;
+    width: 20%;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine sezione centrale */
+
+.sezione_sottotitolo{
+    width: 800px;
+    height: 50px;
+    background-color: rgb(135, 206, 250);
+    margin-bottom: 10px;
+}
+.sezione_centrale{
+    background-color: rgb(135, 206, 250);
+    float: left;
+    width: calc( 100% - 40% - 20px);
+    height: 320px;
+    margin: 0 10px 10px;
+}
+
