@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header, footer, .sezione2{
+header, footer, .sezione1, .sezione2{
     margin: 10px auto;
 }
 header{
@@ -22,7 +22,6 @@ footer{
     background-color: rgb(200, 160, 115);
     width: 800px;
     height: 300px;
-    margin: 20px auto;
 }
 
 /* sulla sezione centrale uso float:left per gli elementi interni e clearfix per il contenitore */
