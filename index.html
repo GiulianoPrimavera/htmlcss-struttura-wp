@@ -13,14 +13,17 @@
         <main>
             <section class="sezione1"></section>
 
-            <section class="sezione2 clearfix">
+            <section class="sezione2">
                 <div class="sezione_sottotitolo"></div>
 
-                <aside></aside>
+                <!-- Florian dice che in un div in cui ci sono elementi floattanti ed elementi non floattanti è consigliato racchiudere gli elementi floattanti in un div interno da quelli non floattanti -->
+                <div class="row clearfix"> <!-- le classi "row" vengono utilizzate per le classi contententi elementi floattanti -->
+                    <div class="colonna_laterali"></div>
 
-                <div class="sezione_centrale"></div>
+                    <div class="colonna_centrale"></div>
 
-                <aside></aside>
+                    <div class="colonna_laterali"></div>
+                </div>
             </section>
         </main>
 
