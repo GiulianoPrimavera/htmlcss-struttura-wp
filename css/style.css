@@ -4,29 +4,28 @@
     box-sizing: border-box;
 }
 
+/* selettore avanzato */
 header, footer, .sezione1, .sezione2{
     margin: 10px auto;
+    width: 800px;
+
 }
 header{
     background-color: rgb(185, 110, 255);
-    width: 800px;
     height: 60px;
 }
 footer{
-    width: 800px;
     height: 30px;
     background-color: rgb(80, 0, 150);
     margin-top: 10px;
 }
 .sezione1{
     background-color: rgb(200, 160, 115);
-    width: 800px;
     height: 300px;
 }
 
 /* sulla sezione centrale uso float:left per gli elementi interni e clearfix per il contenitore, per la classe row */
 .sezione2{
-    width: 800px;
     background-color: rgb(0, 0, 255);
 }
 .colonna_laterali{
@@ -44,7 +43,6 @@ footer{
 /* fine sezione centrale */
 
 .sezione_sottotitolo{
-    width: 800px;
     height: 50px;
     background-color: rgb(135, 206, 250);
     margin-bottom: 10px;
