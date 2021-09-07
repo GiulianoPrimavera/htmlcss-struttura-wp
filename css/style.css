@@ -24,7 +24,7 @@ footer{
     height: 300px;
 }
 
-/* sulla sezione centrale uso float:left per gli elementi interni e clearfix per il contenitore */
+/* sulla sezione centrale uso float:left per gli elementi interni e clearfix per il contenitore, per la classe row */
 .sezione2{
     width: 800px;
     background-color: rgb(0, 0, 255);
@@ -35,12 +35,10 @@ footer{
     height: 320px;
     width: 20%;
 }
-.clearfix::after{
+.row::after{
     content: "";
     display: table;
     clear: both;
-}
-.row{
     padding-bottom: 10px;
 }
 /* fine sezione centrale */
